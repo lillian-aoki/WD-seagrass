@@ -9,4 +9,4 @@ LRA
 
 ![](Density_files/figure-gfm/density_by_region-1.png)<!-- -->
 
-![](Density_files/figure-gfm/density_by_sitecode-1.png)<!-- -->
+![](Density_files/figure-gfm/density_by_sitecode-1.png)<!-- -->![](Density_files/figure-gfm/density_by_sitecode-2.png)<!-- -->

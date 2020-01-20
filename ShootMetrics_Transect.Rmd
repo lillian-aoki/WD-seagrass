@@ -27,10 +27,10 @@ Shoots$EpibiontDryMass.g <- as.numeric(Shoots$EpibiontDryMass.g)
 
 Shoots_summ1 <- Shoots %>%
   group_by(Region,SiteCode,TidalHeight,Transect)%>%
-  summarise(LongestBladeLength.mm=mean(LongestBladeLength.mm),
-            LongestBladeWidth.mm=mean(LongestBladeWidth.mm),
-            SheathLength.mm=mean(SheathLength.mm),
-            EpibiontDryMass.g=mean(EpibiontDryMass.g))
+  summarise(LongestBladeLength.mm=mean(LongestBladeLength.mm,na.rm=TRUE),
+            LongestBladeWidth.mm=mean(LongestBladeWidth.mm,na.rm=TRUE),
+            SheathLength.mm=mean(SheathLength.mm,na.rm=TRUE),
+            EpibiontDryMass.g=mean(EpibiontDryMass.g,na.rm=TRUE))
 
 ```
 
