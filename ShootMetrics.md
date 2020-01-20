@@ -1,7 +1,7 @@
 ShootMetrics
 ================
 LRA
-1/6/2020
+1/20/2020
 
 ## Shoot Metrics Summer 2019
 
