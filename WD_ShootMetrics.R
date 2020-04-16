@@ -7,7 +7,7 @@ region_order2 <- c("AK","BC","WA","OR","BB","SD")
 
 ## read-in data
 
-Shoots <- read.csv("ShootMetrics.csv")
+Shoots <- read.csv("clean data/shoots_epiphytes_2019.csv")
 Shoots <- Shoots%>%
   separate(col=TransectID,sep="_",c("SampleDate","Region","SiteCode","Transect"))
 Shoots$TidalHeight <- ifelse(Shoots$Transect=="L4"|Shoots$Transect=="L5"|Shoots$Transect=="L6","Lower","Upper")
